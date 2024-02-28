@@ -23,7 +23,7 @@ The package includes a Jupyter notebook (datapipeline_sample_usage.ipynb) demons
 ## Installation
 You can install the package using pip:
 ```bash
-pip install git+https://github.com/BlackIG/
+pip install git+[https://github.com/BlackIG/packages](https://github.com/BlackIG/packages)
 
 ** Usage**
 from datapipeline import DataProcessor
