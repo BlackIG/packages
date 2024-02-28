@@ -2,11 +2,23 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This is a Python package for handling and processing data in a pipeline.
+The datapipeline Python package is designed for efficient handling and processing of data in a pipeline. It offers three main modules - data ingestion, field data processing, and weather data processing. The package enables users to seamlessly read and process field data, analyze weather data, and integrate data from various sources.
+
+**Modules**:
+
+**Data Ingestion:**
+Fetches Data: The module includes functions to fetch data from an SQLite database (Maji_Ndogo_farm_survey_small.db) and CSV URLs.
+**Field Data Processor:**
+Process Field Data: This module provides methods to process and clean field data efficiently. It includes functionalities to handle diverse field data attributes such as elevation, latitude, longitude, soil properties, and crop types.
+
+**Notebook:**
+The package includes a Jupyter notebook (datapipeline_sample_usage.ipynb) demonstrating the usage of the pipeline in real-world data processing scenarios. The notebook showcases how the pipeline can be employed for data cleaning and running statistical tests on the processed data.
+
 
 ## Features
 - Read and process field data
-- Analyze weather data
+- Analyze Weather Data The weather data processor module facilitates the analysis of weather-related information. It handles diverse weather metrics, including temperature, rainfall, and pollution levels.
+- Statiscal tests (in sample notebook)
 
 ## Installation
 You can install the package using pip:
